@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.62rem;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+h3{
+  color:  #11999E;
+}
+hr{
+  width :4%;
+  border: dotted #EAF6F6 6px;
+  border-bottom:none;
+  margin: 100 auto;
+
+}
+a{
+  color:  #11999E;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.intro{
+  width: 30%;
+  margin: 20px auto;
+}
+p{
+  line-height: 2;
+}
+
+.topContainer {
+  background-color: #CDF0EA;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin-top: 100px;
+}
+
+.bottom-container {
+  padding-top: 28px;
+  background-color: #66BFBF;
+  height: 100px;
+  line-height: 2;
+  margin-top: 80px;
+
+}
+.contact-me{
+  line-height: 2;
+}
+.pro {
+  text-decoration: underline;
+}
+
+.bottomCloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.topCloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.profilePhoto {
+  height: 200px;
+  width: 200px;
+}
+
+.firstImg {
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin-right: 30px;
+}
+.secondImg{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.netflix{
+  width: 50%;
+  margin: 20px -2px;
+}
+.sites{
+  margin:0 auto;
+  width: 32%;
+}
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #66BFBF;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+  text-align: left;
+}
+
+.languages{
+  height: 125px;
+  width: 125px;
+}
+.footer-link{
+  margin: 20px;
+  font-weight: bold;
+}
+.endline{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
